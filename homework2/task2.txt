@@ -1,0 +1,20 @@
+DOA: v1
+Start : 1
+Acceptance : 2
+??BEGIN??
+State : 1
+?> a 2
+State : 2
+-> b 3
+-> aba 4
+-> a 5
+State : 3
+-> b 3
+-> EPS 2
+State : 4
+-> aba 4
+-> a 5
+State : 5
+-> ab 5
+-> a 2
+??END??

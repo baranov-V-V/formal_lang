@@ -1,0 +1,12 @@
+DOA: v1
+Start : 1
+Acceptance : 3
+??BEGIN??
+State : 1
+?> ab 2
+State : 2
+?> ab 2
+?> aab 3
+State : 3
+-> aab 3
+??END??

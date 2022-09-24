@@ -1,0 +1,16 @@
+DOA: v1
+Start : 1
+Acceptance : 1 & 2 & 3
+??BEGIN??
+State : 1
+-> a 1
+-> c 1
+-> b 2
+State : 2
+-> c 1
+-> a 1
+-> b 3
+State : 3
+-> b 1
+-> c 1
+??END??
